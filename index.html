@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tourtravel app</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+    <a href="#" class="logo"><span>Travel with </span> Ashish</a>
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+    
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+    </header>
+
+    <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="Email" required>
+            <input type="password" class="box" name="password" placeholder="Password" required>
+            <input type="submit" value="Login"   class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+           <p>forget password?<a href="#">click here</a></p>
+          <p>don't have and account?<a href="#">register now</a></p>
+         </form>
+    </div>
+
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>advanture </h3>
+        <p></p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+
+
+    <div class="controls">
+        <span class="vid-btn active"  data-src="video2.mp4"></span>
+        <span class="vid-btn" data-src="video1.mp4"></span>
+        <span class="vid-btn" data-src="video3.mp4"></span>
+        <span class="vid-btn" data-src="video4.mp4"></span>
+    </div>
+    <div class="video-container">
+        <video src="video2.mp4" id="video-slider" loop autoplay muted></video> 
+    </div>
+    </section>
+
+
+
+    <section class="book" id="book">
+            <h1 class="heading">
+                <span>b</span>
+                <span>o</span>
+                <span>o</span>
+                <span>k</span>
+                <span class="space"></span>
+                <span>n</span>
+                <span>o</span>
+                <span>w</span>
+            </h1>
+
+<div class="row">
+    <div class="image">
+        <img src="img3.jpeg" alt="">
+    </div>
+    <form action="">
+        <div class="inputbox">
+            <h3>where to</h3>
+            <input type="text" placeholder="place name">
+        </div>
+        <div class="inputbox">
+            <h3>how many</h3>
+            <input type="number" placeholder="number of guests">
+        </div>
+        <div class="inputbox">
+            <h3>arrivals</h3>
+            <input type="date" >
+        </div>
+        <div class="inputbox">
+            <h3>leaving</h3>
+            <input type="date">
+        </div>
+        <input type="submit" class="btn" value="book now">
+    </form>
+</div>
+
+    </section>
+
+
+<section class="packages" id="packages">
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span >a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="https://wallpapercave.com/wp/wp3605186.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt">dubai</i></h3>
+                <p>this tour bhuild by Ashish </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <div class="price">$90.00<span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://www.tripsavvy.com/thmb/WuzshDPHHG___Ze40MA0fB1gC7Y=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/VAT04981-8bce281f29694d65b03fe7eec2c1cd56.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt">Mumbai</i></h3>
+                <p>this tour bhuild by Ashish </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <div class="price">$80.00<span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://a.cdn-hotels.com/gdcs/production0/d1645/0c67ff64-cf54-4886-91dd-89aa601463af.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt">sydney</i></h3>
+                <p>this tour bhuild by Ashish </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <div class="price">$60.00<span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+
+
+        <div class="box">
+            <img src="https://wallup.net/wp-content/uploads/2019/09/538617-architecture-cities-france-light-towers-monuments-night-panorama-panoramic-paris-urban-temples-2.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt">paris</i></h3>
+                <p>this tour bhuild by Ashish </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <div class="price">$70.00<span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://cdn.touristlink.com/photoblog/wp-content/uploads/2013/11/Tokyo-Tower-at-Night-1024x856.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt">tokiyo</i></h3>
+                <p>this tour bhuild by Ashish </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <div class="price">$90.00<span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <img src="http://images.huffingtonpost.com/2015-12-15-1450214410-6833475-756607030659c4b487486b128_venicegrandcanalcrgetty.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt">itly</i></h3>
+                <p>this tour bhuild by Ashish </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <div class="price">$40.00<span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://www.themigrationfirm.com/wp-content/uploads/2020/03/shutterstock_1470372077.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt">USA</i></h3>
+                <p>this tour bhuild by Ashish </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <div class="price">$80.00<span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        
+        <div class="box">
+            <img src="https://www.jetsetter.com/uploads/sites/7/2018/04/y7lEy9T7-1380x1035.jpeg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt">india</i></h3>
+                <p>this tour bhuild by Ashish </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <div class="price">$70.00<span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        
+        <div class="box">
+            <img src="https://boldtourist.com/wp-content/uploads/2017/09/Paris-France-Seine-River.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt">france</i></h3>
+                <p>this tour bhuild by Ashish </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <div class="price">$40.00<span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        
+        
+    </div>
+</section>
+
+<section class="services" id="services">
+<h1 class="heading">
+
+    <span>s</span>
+    <span>e</span>
+    <span>r</span>
+    <span>v</span>
+    <span>i</span>
+    <span>c</span>
+    <span>e</span>
+    <span>s</span>
+</h1>
+
+<div class="box-container">
+    <div class="box">
+        <i class="fas fa-hotel"></i>
+        <h3>affordable hotels</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+    </div>
+    <div class="box">
+        <i class="fas fa-utensils"></i>
+        <h3>food and drinks</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+    </div>
+    <div class="box">
+        <i class="fas fa-bullhorn"></i>
+        <h3>safety guide</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+    </div>
+    <div class="box">
+        <i class="fas fa-globe-asia"></i>
+        <h3>around the world</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+    </div>
+    <div class="box">
+        <i class="fas fa-plane"></i>
+        <h3>fastest travel</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+    </div>
+    <div class="box">
+        <i class="fas fa-hiking"></i>
+        <h3>advanture</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+    </div>
+
+</div>
+</section>
+
+
+
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+      </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="https://www.travelwideflightsuk.co.uk/News/wp-content/uploads/2018/05/beautiful-place.jpg" alt="">
+            <div class="content">
+                <h3>beautiful place</h3>
+                <p>The beaches of the Maldives have white sand and clear blue water, making it look like paradise.
+                    The rice fields in Bali are green and arranged like steps on a hill, creating a beautiful view..</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="http://www.travelhoundsusa.com/wp-content/uploads/2018/03/3-Best-Beautiful-Places-to-Visit-in-the-World-Iguazu-Falls.jpg" alt="">
+            <div class="content">
+                <h3>beautiful place</h3>
+                <p>Crystal-clear Water: A pristine lake with crystal-clear water reflects the surrounding landscape..</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="http://media.cntraveler.com/photos/57d961ce3e6b32bf25f5ad0f/master/pass/most-beautiful-paris-louvre-GettyImages-536267205.jpg" alt="">
+            <div class="content">
+                <h3>beautiful place</h3>
+                <p> Snow-capped mountains in the distance add to the breathtaking view..</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://www.tourist-destinations.com/wp-content/uploads/2012/06/merlin_148552275_74c0d250-949c-46e0-b8a1-e6d499e992cf-superJumbo.jpg" alt="">
+            <div class="content">
+                <h3>beautiful place</h3>
+                <p>Vibrant flowers bloom everywhere, adding splashes of color.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://www.studentuniverse.com/blog/wp-content/uploads/2014/04/Most-Beautiful-Places-to-Travel-Featured-Image.jpg" alt="">
+            <div class="content">
+                <h3>beautiful place</h3>
+                <p>The area is peaceful and quiet, perfect for relaxation..</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://i.pinimg.com/originals/b0/28/14/b028147aad5bd17691f8b5cddbbca7d0.jpg" alt="">
+            <div class="content">
+                <h3>beautiful place</h3>
+                <p>Well-maintained trails invite visitors to explore the area on foot.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://globalgrasshopper.com/wp-content/uploads/2012/05/20-of-the-most-beautiful-places-to-visit-in-Turkey.jpg" alt="">
+            <div class="content">
+                <h3>beautiful place</h3>
+                <p>The nearby village offers a glimpse into the local culture and traditions.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://www.tatacapital.com/wp-content/uploads/2019/12/most-beautiful-places-in-the-world-1.jpg" alt="">
+            <div class="content">
+                <h3>beautiful place</h3>
+                <p>The nearby village offers a glimpse into the local culture and traditions.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://globalgrasshopper.com/wp-content/uploads/2020/01/A-pretty-boat-scene-in-Santorini.jpg" alt="">
+            <div class="content">
+                <h3>beautiful place</h3>
+                <p>
+                    Nestled between emerald hills, the crystal-clear waters of Lake Bled reflect the majestic Bled Castle perched on a cliff, creating a serene and enchanting landscape..</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+    </div>
+
+    <section class="review" id="review">
+<h1 class="heading">
+    <span>r</span>
+    <span>e</span>
+    <span>v</span>
+    <span>i</span>
+    <span>e</span>
+    <span>w</span>
+</h1>
+
+<div class=" swiper-container review-slider">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="box">
+                <img src="https://cache.careers360.mobi/media/article_images/2022/7/1/Dev-Bhoomi-admissions-2022-featured-image.webp" alt="">
+                <h3>Dr. Anjali Mehta</h3>
+                <p> " Ashish I really liked the Taur Travel website. The trip booking process is very simple and user-friendly. The design of the website is attractive and everything is easily accessible. I would recommend Taur Travel.".</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="box">
+                <img src="https://i1.rgstatic.net/ii/profile.image/1054429633589248-1628407023795_Q512/Ritika-Mehra.jpg" alt="">
+                <h3>dean ritika mehra</h3>
+                <p> "Ashish All kinds of information are available on the Taur Travel website, which is very necessary for any traveler. The layout and design of the website are very professional. Overall, it's a great platform for travel planning."</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="box">
+                <img src="https://media-exp1.licdn.com/dms/image/C4D22AQFQUG5axVZzzA/feedshare-shrink_2048_1536/0/1666261804879?e=2147483647&v=beta&t=kMztDM81S7CD8Arv34NUEzY1i6k63AzkAwiMOkwT544" alt="">
+                <h3>miss priya</h3>
+                <p> "Ashish The variety of hotel bookings and travel packages on the Taur Travel website is impressive. Planning my trip from here was very convenient. Customer support is also very helpful. It was a great experience!".</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="swiper-slide">
+            <div class="box">
+                <img src="https://www.sdsuv.ac.in/administratives/vc/vc3.jpg" alt="">
+                <h3>mr rajesh verma</h3>
+                <p> "Ashish Using the Taur Travel website gave me the opportunity to easily plan my trip. The interface of the website is simple and easy to navigate. Everything is clear and detailed. I would give the Taur Travel website 5 stars.".</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="swiper-slide">
+            <div class="box">
+                <img src="https://admissions.dbuu.ac.in/static/media/SanjayBansal.2aba70f6.png" alt="">
+                <h3>Prof sanjay bansal</h3>
+                <p> "Ashish The speed and performance of the website are very good. Each page loads quickly and navigation is very smooth. The information provided on the website is accurate and the booking process is hassle-free".</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="swiper-slide">
+            <div class="box">
+                <img src="https://www.hbs.edu/creating-emerging-markets/PublishingImages/interviews/Bansal_profile.jpg" alt="">
+                <h3>Dr. Sanjay Kulkarni</h3>
+                <p> "Ashish The Taur Travel website was very helpful in planning my family tripI found this website very useful. Thumbs up to Taur Travel!". !"
+.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+       
+
+        <div class="swiper-slide">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ">
+            <div class="box">
+                <img src="https://www.iamrenew.com/wp-content/uploads/2018/08/sanjay-dev.jpg" alt="">
+                <h3>Mr. Mohan Kapoor</h3>
+                <p> "Ashish Taur Travel has an excellent website with comprehensive travel options. The user experience is smooth  I highly recommend Taur Travel to anyone looking to plan their next vacation."
+
+                    "</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+    </section>
+
+
+
+<section id="contact">
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+    <div class="row">
+        <div class="image">
+            <img src="images/contact-img.png" alt="">
+</div>
+<div class="container">
+    <form action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="998e2c15-ac04-4045-8c0a-47e3ea0f039d"> 
+      <label for="lname">First Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      <label for="lname">Last name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">India</option>
+        <option value="usa">American Samoa</option>
+        <option value="usa">Antarctica</option>
+        <option value="usa">Brazil</option>
+        <option value="usa">Cambodia</option>
+        <option value="usa">Canada</option>
+        <option value="usa">China</option>
+        <option value="usa">France</option>
+        <option value="usa">Germany</option>
+        <option value="usa">haiti</option>
+        <option value="usa">Iraq</option>
+        <option value="usa">Italy</option>
+        <option value="usa">Japan</option>
+        <option value="usa">Jorder</option>
+        <option value="usa">Kuwait</option>
+        <option value="usa">Pakistan</option>
+        <option value="AF">Afghanistan</option>
+        <option value="AX">Aland Islands</option>
+        <option value="AL">Albania</option>
+        <option value="DZ">Algeria</option>
+        <option value="AS">American Samoa</option>
+        <option value="AD">Andorra</option>
+        <option value="AO">Angola</option>
+        <option value="AI">Anguilla</option>
+        <option value="AQ">Antarctica</option>
+        <option value="AG">Antigua and Barbuda</option>
+        <option value="AR">Argentina</option>
+        <option value="AM">Armenia</option>
+        <option value="AW">Aruba</option>
+        <option value="AU">Australia</option>
+        <option value="AT">Austria</option>
+        <option value="AZ">Azerbaijan</option>
+        <option value="BS">Bahamas</option>
+        <option value="BH">Bahrain</option>
+        <option value="BD">Bangladesh</option>
+        <option value="BB">Barbados</option>
+        <option value="BY">Belarus</option>
+        <option value="BE">Belgium</option>
+        <option value="BZ">Belize</option>
+        <option value="BJ">Benin</option>
+        <option value="BM">Bermuda</option>
+        <option value="BT">Bhutan</option>
+        <option value="BO">Bolivia</option>
+        <option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+        <option value="BA">Bosnia and Herzegovina</option>
+        <option value="BW">Botswana</option>
+        <option value="BV">Bouvet Island</option>
+        <option value="BR">Brazil</option>
+        <option value="IO">British Indian Ocean Territory</option>
+        <option value="BN">Brunei Darussalam</option>
+        <option value="BG">Bulgaria</option>
+        <option value="BF">Burkina Faso</option>
+        <option value="BI">Burundi</option>
+        <option value="KH">Cambodia</option>
+        <option value="CM">Cameroon</option>
+        <option value="CA">Canada</option>
+        <option value="CV">Cape Verde</option>
+        <option value="KY">Cayman Islands</option>
+        <option value="CF">Central African Republic</option>
+        <option value="TD">Chad</option>
+        <option value="CL">Chile</option>
+        <option value="CN">China</option>
+        <option value="CX">Christmas Island</option>
+        <option value="CC">Cocos (Keeling) Islands</option>
+        <option value="CO">Colombia</option>
+        <option value="KM">Comoros</option>
+        <option value="CG">Congo</option>
+        <option value="CD">Congo, Democratic Republic of the Congo</option>
+        <option value="CK">Cook Islands</option>
+        <option value="CR">Costa Rica</option>
+        <option value="CI">Cote D'Ivoire</option>
+        <option value="HR">Croatia</option>
+        <option value="CU">Cuba</option>
+        <option value="CW">Curacao</option>
+        <option value="CY">Cyprus</option>
+        <option value="CZ">Czech Republic</option>
+        <option value="DK">Denmark</option>
+        <option value="DJ">Djibouti</option>
+        <option value="DM">Dominica</option>
+        <option value="DO">Dominican Republic</option>
+        <option value="EC">Ecuador</option>
+        <option value="EG">Egypt</option>
+        <option value="SV">El Salvador</option>
+        <option value="GQ">Equatorial Guinea</option>
+        <option value="ER">Eritrea</option>
+        <option value="EE">Estonia</option>
+        <option value="ET">Ethiopia</option>
+        <option value="FK">Falkland Islands (Malvinas)</option>
+        <option value="FO">Faroe Islands</option>
+        <option value="FJ">Fiji</option>
+        <option value="FI">Finland</option>
+        <option value="FR">France</option>
+        <option value="GF">French Guiana</option>
+        <option value="PF">French Polynesia</option>
+        <option value="TF">French Southern Territories</option>
+        <option value="GA">Gabon</option>
+        <option value="GM">Gambia</option>
+        <option value="GE">Georgia</option>
+        <option value="DE">Germany</option>
+        <option value="GH">Ghana</option>
+        <option value="GI">Gibraltar</option>
+        <option value="GR">Greece</option>
+        <option value="GL">Greenland</option>
+        <option value="GD">Grenada</option>
+        <option value="GP">Guadeloupe</option>
+        <option value="GU">Guam</option>
+        <option value="GT">Guatemala</option>
+        <option value="GG">Guernsey</option>
+        <option value="GN">Guinea</option>
+        <option value="GW">Guinea-Bissau</option>
+        <option value="GY">Guyana</option>
+        <option value="HT">Haiti</option>
+        <option value="HM">Heard Island and Mcdonald Islands</option>
+        <option value="VA">Holy See (Vatican City State)</option>
+        <option value="HN">Honduras</option>
+        <option value="HK">Hong Kong</option>
+        <option value="HU">Hungary</option>
+        <option value="IS">Iceland</option>
+        <option value="IN">India</option>
+        <option value="ID">Indonesia</option>
+        <option value="IR">Iran, Islamic Republic of</option>
+        <option value="IQ">Iraq</option>
+        <option value="IE">Ireland</option>
+        <option value="IM">Isle of Man</option>
+        <option value="IL">Israel</option>
+        <option value="IT">Italy</option>
+        <option value="JM">Jamaica</option>
+        <option value="JP">Japan</option>
+        <option value="JE">Jersey</option>
+        <option value="JO">Jordan</option>
+        <option value="KZ">Kazakhstan</option>
+        <option value="KE">Kenya</option>
+        <option value="KI">Kiribati</option>
+        <option value="KP">Korea, Democratic People's Republic of</option>
+        <option value="KR">Korea, Republic of</option>
+        <option value="XK">Kosovo</option>
+        <option value="KW">Kuwait</option>
+        <option value="KG">Kyrgyzstan</option>
+        <option value="LA">Lao People's Democratic Republic</option>
+        <option value="LV">Latvia</option>
+        <option value="LB">Lebanon</option>
+        <option value="LS">Lesotho</option>
+        <option value="LR">Liberia</option>
+        <option value="LY">Libyan Arab Jamahiriya</option>
+        <option value="LI">Liechtenstein</option>
+        <option value="LT">Lithuania</option>
+        <option value="LU">Luxembourg</option>
+        <option value="MO">Macao</option>
+        <option value="MK">Macedonia, the Former Yugoslav Republic of</option>
+        <option value="MG">Madagascar</option>
+        <option value="MW">Malawi</option>
+        <option value="MY">Malaysia</option>
+        <option value="MV">Maldives</option>
+        <option value="ML">Mali</option>
+        <option value="MT">Malta</option>
+        <option value="MH">Marshall Islands</option>
+        <option value="MQ">Martinique</option>
+        <option value="MR">Mauritania</option>
+        <option value="MU">Mauritius</option>
+        <option value="YT">Mayotte</option>
+        <option value="MX">Mexico</option>
+        <option value="FM">Micronesia, Federated States of</option>
+        <option value="MD">Moldova, Republic of</option>
+        <option value="MC">Monaco</option>
+        <option value="MN">Mongolia</option>
+        <option value="ME">Montenegro</option>
+        <option value="MS">Montserrat</option>
+        <option value="MA">Morocco</option>
+        <option value="MZ">Mozambique</option>
+        <option value="MM">Myanmar</option>
+        <option value="NA">Namibia</option>
+        <option value="NR">Nauru</option>
+        <option value="NP">Nepal</option>
+        <option value="NL">Netherlands</option>
+        <option value="AN">Netherlands Antilles</option>
+        <option value="NC">New Caledonia</option>
+        <option value="NZ">New Zealand</option>
+        <option value="NI">Nicaragua</option>
+        <option value="NE">Niger</option>
+        <option value="NG">Nigeria</option>
+        <option value="NU">Niue</option>
+        <option value="NF">Norfolk Island</option>
+        <option value="MP">Northern Mariana Islands</option>
+        <option value="NO">Norway</option>
+        <option value="OM">Oman</option>
+        <option value="PK">Pakistan</option>
+        <option value="PW">Palau</option>
+        <option value="PS">Palestinian Territory, Occupied</option>
+        <option value="PA">Panama</option>
+        <option value="PG">Papua New Guinea</option>
+        <option value="PY">Paraguay</option>
+        <option value="PE">Peru</option>
+        <option value="PH">Philippines</option>
+        <option value="PN">Pitcairn</option>
+        <option value="PL">Poland</option>
+        <option value="PT">Portugal</option>
+        <option value="PR">Puerto Rico</option>
+        <option value="QA">Qatar</option>
+        <option value="RE">Reunion</option>
+        <option value="RO">Romania</option>
+        <option value="RU">Russian Federation</option>
+        <option value="RW">Rwanda</option>
+        <option value="BL">Saint Barthelemy</option>
+        <option value="SH">Saint Helena</option>
+        <option value="KN">Saint Kitts and Nevis</option>
+        <option value="LC">Saint Lucia</option>
+        <option value="MF">Saint Martin</option>
+        <option value="PM">Saint Pierre and Miquelon</option>
+        <option value="VC">Saint Vincent and the Grenadines</option>
+        <option value="WS">Samoa</option>
+        <option value="SM">San Marino</option>
+        <option value="ST">Sao Tome and Principe</option>
+        <option value="SA">Saudi Arabia</option>
+        <option value="SN">Senegal</option>
+        <option value="RS">Serbia</option>
+        <option value="CS">Serbia and Montenegro</option>
+        <option value="SC">Seychelles</option>
+        <option value="SL">Sierra Leone</option>
+        <option value="SG">Singapore</option>
+        <option value="SX">Sint Maarten</option>
+        <option value="SK">Slovakia</option>
+        <option value="SI">Slovenia</option>
+        <option value="SB">Solomon Islands</option>
+        <option value="SO">Somalia</option>
+        <option value="ZA">South Africa</option>
+        <option value="GS">South Georgia and the South Sandwich Islands</option>
+        <option value="SS">South Sudan</option>
+        <option value="ES">Spain</option>
+        <option value="LK">Sri Lanka</option>
+        <option value="SD">Sudan</option>
+        <option value="SR">Suriname</option>
+        <option value="SJ">Svalbard and Jan Mayen</option>
+        <option value="SZ">Swaziland</option>
+        <option value="SE">Sweden</option>
+        <option value="CH">Switzerland</option>
+        <option value="SY">Syrian Arab Republic</option>
+        <option value="TW">Taiwan, Province of China</option>
+        <option value="TJ">Tajikistan</option>
+        <option value="TZ">Tanzania, United Republic of</option>
+        <option value="TH">Thailand</option>
+        <option value="TL">Timor-Leste</option>
+        <option value="TG">Togo</option>
+        <option value="TK">Tokelau</option>
+        <option value="TO">Tonga</option>
+        <option value="TT">Trinidad and Tobago</option>
+        <option value="TN">Tunisia</option>
+        <option value="TR">Turkey</option>
+        <option value="TM">Turkmenistan</option>
+        <option value="TC">Turks and Caicos Islands</option>
+        <option value="TV">Tuvalu</option>
+        <option value="UG">Uganda</option>
+        <option value="UA">Ukraine</option>
+        <option value="AE">United Arab Emirates</option>
+        <option value="GB">United Kingdom</option>
+        <option value="US">United States</option>
+        <option value="UM">United States Minor Outlying Islands</option>
+        <option value="UY">Uruguay</option>
+        <option value="UZ">Uzbekistan</option>
+        <option value="VU">Vanuatu</option>
+        <option value="VE">Venezuela</option>
+        <option value="VN">Viet Nam</option>
+        <option value="VG">Virgin Islands, British</option>
+        <option value="VI">Virgin Islands, U.s.</option>
+        <option value="WF">Wallis and Futuna</option>
+        <option value="EH">Western Sahara</option>
+        <option value="YE">Yemen</option>
+        <option value="ZM">Zambia</option>
+        <option value="ZW">Zimbabwe</option>
+      </select>
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      <input type="submit" value="Submit">
+      <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+      <iframe style="height:700px;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=new+york&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+      </iframe>
+    </div>
+   </form>
+  </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+        
+        <div class="box" >
+           
+          <h3>follow us</h3><br>
+            <ul>
+            <li> <a href="https://www.instagram.com/ashis1_hpanwar?igsh=YWNsZXIzNm9jYXp6"><i class="fa-brands fa-instagram fa-beat"></i>instagram</a></li><br>
+           <li><a href="https://wa.me/message/FZWHAA4W2WKCK1"><i class="fa-brands fa-whatsapp fa-beat-fade"></i>whatsapp</a></li><br>
+           <li><a href="https://www.youtube.com/@haker_rank"><i class="fa-brands fa-youtube fa-flip"></i>youtube</a></li><br>
+           <li><a href="https://www.linkedin.com/in/ashish-panwar-a1a824282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin fa-shake"></i>linkedin</a></li><br>
+            </ul>
+            </div>
+            </div>
+        <br>
+        
+ 
+
+<h1 class="credit">created by <sapn>mr.Ashish panwar</sapn> all right reserved!</h1>
+</section>
+
+
+<section class="about">
+    <div class="hello">
+        <span><i>let me introduce myself</i></span>
+        <h2 style="color:red">About me</h2>
+        <h3>A story of good-></h3>
+        <p><i>I'am Ashish.passionate web and software developer with a deep understanding of programming language
+            such as HTML,CSS,JAVASCRPT(frontend) REACT,TAILWIND,NEXT.JS, NODE JS(backand) and C,C++,JAVA,PYHON,DSA with C!
+        </i></p><br><br><br><br>
+        <div class="fres">
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="myimg.jpeg" id="myimg" alt="">
+                    
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+        </div>  
+</section>
+    
+    <script src="app.js"></script>
+
+</body>
+</html>
